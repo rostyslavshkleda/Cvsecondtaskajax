@@ -1,0 +1,17 @@
+*{
+	margin: 50px;
+}
+h1 {
+	color: red;
+	text-decoration: underline;
+}
+p {
+	color: blue;
+	font-size: xx- small;
+	animation-name: grow;
+	animation-duration: 20s;
+}
+@keyframes grow {
+	from{ font-size: xx-small; }
+	to{ font-size: xx-large; }
+}
